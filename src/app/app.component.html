@@ -1,0 +1,35 @@
+<nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-image:linear-gradient(132deg,#051e39,#398a8d);">
+	<a class="navbar-brand" href="#">Frontend Code Challenge @ OptioPay</a>
+	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  
+</nav>
+
+<div class="container-fluid" style="padding-top: 70px;">
+
+		<div class="row my-auto">
+			<div class="col-sm">
+				<div class="input-group input-group-lg">
+
+					<div class="input-group-prepend">
+						<span class="input-group-text" id="inputGroup-sizing-lg">Roman Number</span>
+  </div>
+  <input style="text-transform:uppercase" type="text" class="form-control" [(ngModel)]="roman" (input)="fromRoman()">
+  
+</div>
+    </div>
+    <div class="col-sm">
+     <div class="input-group input-group-lg">
+  <div class="input-group-prepend">
+    <span class="input-group-text" id="inputGroup-sizing-lg">Integer Number</span>
+  </div>
+  <input type="text" [(ngModel)]="integer" (input)="toRoman()" class="form-control">
+  
+</div>
+    </div>
+   
+  </div>
+
+</div>
