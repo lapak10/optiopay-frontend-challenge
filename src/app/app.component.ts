@@ -9,7 +9,7 @@ import { RomanNumeralsService } from './roman-numerals.service'
 export class AppComponent  {
   
   roman="M";
-  integer="1000";
+  integer:any="1000";
   constructor( private RomanNumerals: RomanNumeralsService ){
     this.fromRoman();
   }
